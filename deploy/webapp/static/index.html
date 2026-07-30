@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corpus Audio–Visual Search</title>
+<link rel="stylesheet" href="style.css?v=7">
+</head>
+<body>
+
+<div id="topbar">
+  <span class="brand">Corpus A/V Search</span>
+  <span class="crumbs" id="crumbs"></span>
+  <span class="spacer"></span>
+  <span class="topmeta" id="topmeta"></span>
+</div>
+
+<div id="columns">
+
+  <section class="col" id="col-query" data-key="query">
+    <div class="col-head" data-toggle="query">
+      <span class="col-title">I · Query</span>
+      <span class="col-collapse">–</span>
+    </div>
+    <div class="col-body" id="body-query"></div>
+  </section>
+
+  <section class="col" id="col-segments" data-key="segments">
+    <div class="col-head" data-toggle="segments">
+      <span class="col-title">II · Segments</span>
+      <span class="col-collapse">–</span>
+    </div>
+    <div class="col-body" id="body-segments"></div>
+  </section>
+
+  <section class="col grow" id="col-results" data-key="results">
+    <div class="col-head" data-toggle="results">
+      <span class="col-title">III · Match</span>
+      <span class="col-tools" id="results-tools"></span>
+      <span class="col-collapse">–</span>
+    </div>
+    <div class="col-body" id="body-results"></div>
+  </section>
+
+</div>
+
+<script src="app.js?v=7"></script>
+</body>
+</html>
